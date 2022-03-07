@@ -41,7 +41,7 @@ function Forcast(props) {
 
   useEffect(() => {
     search("Los Cabos");
-  }, );
+  },[] );
 
   return (
     <div className="forecast">
