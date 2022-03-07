@@ -26,13 +26,7 @@ function Forcast(props) {
         setError({ message: "Not Found", query: query });
       });
   };
- /* function checkTime(i) {
-    if (i < 10) {
-      i = "0" + i;
-    } // add zero in front of numbers < 10
-    return i;
-  }
-*/
+
   const defaults = {
     color: "white",
     size: 112,
@@ -41,7 +35,7 @@ function Forcast(props) {
 
   useEffect(() => {
     search("Los Cabos");
-  },[] );
+  },[] ); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div className="forecast">
