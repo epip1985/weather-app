@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {  } from "react";
 import CurrentLocation from "./currentLocation";
 import "./App.css";
 
@@ -10,7 +10,7 @@ function App() {
       </div>
       <div className="footer-info">
 {" "}
-        <a target="_blank" href="https://www.enterplay.solutions/">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.enterplay.solutions/">
         Enterplay Solutions
         </a>
       </div>
