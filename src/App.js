@@ -10,7 +10,7 @@ function App() {
       </div>
       <div className="footer-info">
 {" "}
-        <a target="_blank" rel="noopener noreferrer" href="https://www.enterplay.solutions/">
+        <a target="_blank" rel="noopener noreferrer" href="https://enterpay.abogadosloscabos.com/">
         Enterplay Solutions
         </a>
       </div>
